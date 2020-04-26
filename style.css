@@ -1,0 +1,400 @@
+body {
+  font-family: 'Jua', sans-serif;
+  background-color: #ffffff;
+}
+
+
+
+.file-upload-btn {
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: #1FB264;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #15824B;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.file-upload-btn:hover {
+  background: #1AA059;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+}
+#loading {
+  display: none;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+   width: 60%;
+    margin: 0 auto;
+    position: relative;
+    object-fit: contain;
+    border-radius: 10px;
+    border: dashed 1.5px #35465d;
+    background-color: #ffffff;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #1FB264;
+  border: 4px dashed #ffffff;
+}
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.file-upload-image {
+  max-height: 60%;
+  max-width: 60%;
+  margin: auto;
+  padding: 10px;
+}
+
+.try-again-btn {
+  border-radius: 40px;
+  border: solid 1.5px #35465d;
+  background-color: #35465d;
+}
+
+.try-again-text {
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  padding: 4px 15px;
+}
+
+.remove-image {
+  width: 200px;
+  margin: 0;
+  color: #fff;
+  background: #cd4535;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #b02818;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.remove-image:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.nav-distance{
+    padding: 2.1% 7.7%;
+}
+
+.navbar-light .navbar-brand{
+  font-family: 'Jua', sans-serif;
+  line-height: 1.68;
+  text-align: left;
+  color: #35465d;
+}
+
+.navbar-light .navbar-toggler{
+    border-color: #ffffff;
+}
+
+.section{
+    margin-top: 50px;
+}
+
+.title{
+  line-height: 1.67;
+  text-align: center;
+  color: #35465d;
+}
+
+.subtitle{
+  line-height: 1.53;
+  text-align: center;
+  color: #35465d;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+    .navbar-brand{
+        font-size: 2rem;
+    }
+}
+
+.youtube-link {
+    font-family: 'Jua', sans-serif;
+    font-size: 0.8rem; 
+    line-height: 1.71;
+    text-align: center;
+    color: #969696;
+}
+
+.youtube-link:hover {
+    font-family: 'Jua', sans-serif;
+    font-size: 0.8rem; 
+    line-height: 1.71;
+    text-align: center;
+    color: #464646;
+    text-decoration: underline;
+}
+
+.youtube-icon {
+    width: 5%;
+}
+
+.upload {
+    width: 20%;
+}
+.upload-text {
+    width: 58%;
+    font-size: 1.5rem;
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+    margin: 0 auto;
+}
+
+.file-upload{
+   padding: 15% 3%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: solid 1.5px #f6f7fa;
+    background-color: #f6f7fa;
+}
+
+    
+.image-upload-wrap{
+    object-fit: contain;
+  border-radius: 10px;
+  border: dashed 1.5px #35465d;
+  background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.image-upload-wrap:hover {
+    object-fit: contain;
+  border-radius: 10px;
+  border: dashed 1.5px #35465d;
+  background-color: #35465d;
+}
+
+.upload-text{
+  font-family: 'Jua', sans-serif;
+  font-size: 1.56rem;
+  line-height: 1.53;
+  text-align: center;
+  color: #35465d;
+}
+
+.footer {
+    background-color: initial;
+    color: initial;
+}
+
+
+.bar-container {
+  height: 2.7rem;
+}
+
+.cherry-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(245, 193, 193, 1);
+}
+.cherry-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(224, 56, 56, 1);
+}
+
+.grapefruit-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(247, 206, 218, 1);
+}
+.grapefruit-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(236, 136, 164, 1);
+}
+
+.peach-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(245, 205, 189, 1);
+}
+.peach-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(236, 164, 136, 1);
+}
+
+.apricot-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(245, 222, 189, 1);
+}
+.apricot-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(230, 174, 92, 1);
+}
+
+.mango-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(252, 240, 177, 1);
+}
+.mango-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(245, 223, 97, 1);
+}
+
+.percent-text {
+  font-size: 1rem;
+  color: #ffffff;
+}
+.fruit-label{
+    width: 20%;
+    text-align: left;
+    height: 2rem;
+}
+#label-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.result-message {
+    font-size: 1.5rem;
+}
+
+.fruit-explain {
+    font-size: 1.5rem;
+}
+.cherry-friut-title {
+    color: #e03838;
+    font-size: 1.5rem;
+}
+.cherry-friut-celeb {
+    color: #e65c5c;
+    font-size: 1rem;
+}
+.grapefruit-friut-title {
+    color: #ec88a4;
+    font-size: 1.5rem;
+}
+.grapefruit-friut-celeb {
+    color: #ef9ab2;
+    font-size: 1rem;
+}
+.peach-friut-title {
+    color: #eca488;
+    font-size: 1.5rem;
+}
+.peach-friut-celeb {
+    color: #efb59f;
+    font-size: 1rem;
+}
+.apricot-friut-title {
+    color: #e6ae5c;
+    font-size: 1.5rem;
+}
+.apricot-friut-celeb {
+    color: #eabb76;
+    font-size: 1rem;
+}
+.mango-friut-title {
+    color: #f1d327;
+    font-size: 1.5rem;
+}
+.mango-friut-celeb {
+    color: #f5df61;
+    font-size: 1rem;
+}
+
